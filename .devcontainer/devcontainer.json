@@ -1,10 +1,10 @@
 // https://github.com/microsoft/vscode-dev-containers/blob/main/containers/docker-existing-docker-compose/.devcontainer/devcontainer.json
 {
-    "name": "Existing Docker Compose (Extend)",
+    "name": "機能実装テスト用",
 
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
 	"dockerComposeFile": [
-		"./container-laravel-tutorial/docker-compose.yml"
+		"./container-sample-laravel/docker-compose.yml"
 	],
 
 	// The 'service' property is the name of the service for the container that VS Code should
