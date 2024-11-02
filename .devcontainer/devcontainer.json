@@ -1,6 +1,6 @@
 // https://github.com/microsoft/vscode-dev-containers/blob/main/containers/docker-existing-docker-compose/.devcontainer/devcontainer.json
 {
-    "name": "機能実装テスト用",
+    "name": "sample develop tools",
 
 	// Update the 'dockerComposeFile' list if you have more compose files or use different names.
 	"dockerComposeFile": [
@@ -18,12 +18,13 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"felixfbecker.php-debug",
-				"felixfbecker.php-intellisense",
-				"onecentlin.laravel-blade",
-				"jcbuisson.vue",
-				"hollowtree.vue-snippets"
-			],
+                "felixfbecker.php-debug",
+                "felixfbecker.php-intellisense",
+                "onecentlin.laravel-blade",
+                "jcbuisson.vue",
+                "hollowtree.vue-snippets",
+                "mhutchie.git-graph"
+            ],
 		}
 	}
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
